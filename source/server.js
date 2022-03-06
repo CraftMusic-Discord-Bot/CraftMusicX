@@ -467,7 +467,7 @@ function play(guild, song) {
         .on('error', () => {
             console.log(error)
         })
-    //dispatcher.setVolumeLogarithmic(serverQueue.volume / 3)
+    dispatcher.setVolumeLogarithmic(serverQueue.volume / 3)
 
     const nowPlayEmbed = new MessageEmbed()
         .setColor("#6200FF")
