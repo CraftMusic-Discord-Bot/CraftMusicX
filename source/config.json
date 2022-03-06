@@ -1,1 +1,6 @@
-
+{
+    "PREFIX": "x!",
+    "token": "Discord Bot Token",
+    "APIKey": "YouTube Data API v4 Key",
+    "notfallYTToken": "You dont need this, its just to bypass the YouTube Ratelimit"
+}
